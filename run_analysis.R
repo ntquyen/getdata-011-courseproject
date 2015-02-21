@@ -1,7 +1,7 @@
 ## The code assumes that UCI_HAR_Dataset is in the working directory
 # setwd("/path/to/UCI_HAR_Dataset")
 
-### Load libraries
+### Load dependent libraries
 library(plyr)
 library(dplyr)
 library(tidyr)
