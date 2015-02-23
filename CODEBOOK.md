@@ -17,6 +17,9 @@ In problem 1, I loaded the data using `read.table()` and merged the `train/X_tra
 
 2. Using `grep()`, I first extracted the indices of mean and standart deviation features. Then using these indices, I extracted from the `dataset` the corresponding column.
 
+3. List of features:
+
+
 
 ## Problem 4: Appropriately labels the data set with descriptive variable names. 
 
@@ -50,4 +53,4 @@ tBodyAcc_mean_X LAYING 4 0.2635592
 
 1. Use `gather()` to gather variables like `tBodyAcc_mean_X`
 2. Use `group_by()` to group the need variables: `measure`, `activity_name` and `subject`
-3. Use `summarize()` to calculate the mean of each variables and stored it in `agv_value`
+3. Use `summarize()` to calculate the mean of each variables and stored it in `avg_value`
