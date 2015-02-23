@@ -17,9 +17,48 @@ In problem 1, I loaded the data using `read.table()` and merged the `train/X_tra
 
 2. Using `grep()`, I first extracted the indices of mean and standart deviation features. Then using these indices, I extracted from the `dataset` the corresponding column.
 
-3. List of features:
-
-
+3. List of fetched and modified features:
+  * tBodyAcc_mean_XYZ
+  * tBodyAcc_std_XYZ
+  * tGravityAcc_mean_XYZ
+  * tGravityAcc_std_XYZ
+  * tBodyAccJerk_mean_XYZ
+  * tBodyAccJerk_std_XYZ
+  * tBodyGyro_mean_XYZ
+  * tBodyGyro_std_XYZ
+  * tBodyGyroJerk_mean_XYZ
+  * tBodyGyroJerk_std_XYZ
+  * tBodyAccMag_mean
+  * tBodyAccMag_std
+  * tGravityAccMag_mean
+  * tGravityAccMag_std
+  * tBodyAccJerkMag_mean
+  * tBodyAccJerkMag_std
+  * tBodyGyroMag_mean             
+  * tBodyGyroMag_std
+  * tBodyGyroJerkMag_mean
+  * tBodyGyroJerkMag_std
+  * fBodyAcc_mean_XYZ
+  * fBodyAcc_std_XYZ
+  * fBodyAcc_meanFreq_XYZ
+  * fBodyAccJerk_mean_XYZ
+  * fBodyAccJerk_std_XYZ
+  * fBodyAccJerk_meanFreq_XYZ
+  * fBodyGyro_mean_XYZ
+  * fBodyGyro_std_XYZ
+  * fBodyGyro_meanFreq_XYZ
+  * fBodyAccMag_mean
+  * fBodyAccMag_std
+  * fBodyAccMag_meanFreq
+  * fBodyBodyAccJerkMag_mean
+  * fBodyBodyAccJerkMag_std
+  * fBodyBodyAccJerkMag_meanFreq
+  * fBodyBodyGyroMag_mean
+  * fBodyBodyGyroMag_std
+  * fBodyBodyGyroMag_meanFreq
+  * fBodyBodyGyroJerkMag_mean
+  * fBodyBodyGyroJerkMag_std
+  * fBodyBodyGyroJerkMag_meanFreq
 
 ## Problem 4: Appropriately labels the data set with descriptive variable names. 
 
