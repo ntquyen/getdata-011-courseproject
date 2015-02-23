@@ -21,7 +21,7 @@ install.packages("tidyr")
 ```
 
 ## How to run the code
-1. Make sure to set the working directory to contain the UCI_HAR_Dataset. 
+1. Make sure to set the working directory to contain the needed data named `UCI_HAR_Dataset`. 
   Download the data here: [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
   Data description: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
