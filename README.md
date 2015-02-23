@@ -9,7 +9,7 @@ The code is organized to solve the following problems:
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The output is a tidy dataset produced by step 5.
+The output is a `tidydataset.txt` produced by step 5.
 
 ## Prerequisite
 Make sure you have `plyr`, `dplyr` and `tidyr` packages installed.
